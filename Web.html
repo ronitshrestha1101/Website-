@@ -1,0 +1,104 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronit Shrestha - Portfolio</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ronit Shrestha</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="profile.jpg" alt="Ronit Shrestha" width="200" height="200">
+                <p>
+                    Hi, I'm <strong>Ronit Shrestha</strong>, a MERN Stack Developer. I build high-performance, user-friendly web applications with modern design systems and robust backend architectures.
+                </p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <dl>
+                <div>
+                    <dt>MERN Stack</dt>
+                    <dd>MongoDB, Express, React, and Node.js.</dd>
+                </div>
+                <div>
+                    <dt>Git</dt>
+                    <dd>Version control for modern codebases.</dd>
+                </div>
+            </dl>
+        </section>
+
+        <hr>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Pokhara Green Resort</h3>
+                    <p>A luxury hotel booking website featuring availability queries, eSewa/Khalti checkout simulation, QR-coded guest passes, and an interactive admin dashboard.</p>
+                    <div class="project-images">
+                        <img src="hotel_booking.png" alt="Pokhara Green Resort Home" width="200" height="150">
+                        <img src="hotel_booking_admin.png" alt="Pokhara Green Resort Admin" width="200" height="150">
+                        <img src="hotel_booking_ticket.png" alt="Pokhara Green Resort Guest Pass" width="200" height="150">
+                    </div>
+                    <a href="https://github.com/ronitshrestha1101/HB" target="_blank">View GitHub Repository</a>
+                </div>
+                <div class="project-card">
+                    <h3>Ride Nepal</h3>
+                    <p>A premium vehicle rental platform with automated pricing discounts, self-drive/driver modes, eSewa/Khalti payment sandboxes, and PDF invoices.</p>
+                    <div class="project-images">
+                        <img src="ride_nepal.png" alt="Ride Nepal Home" width="200" height="150">
+                        <img src="ride_nepal_driver.png" alt="Ride Nepal Driver Portal" width="200" height="150">
+                        <img src="ride_nepal_details.png" alt="Ride Nepal Vehicle Details" width="200" height="150">
+                    </div>
+                    <a href="https://github.com/ronitshrestha1101/NR" target="_blank">View GitHub Repository</a>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <p>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="msg">Message:</label><br>
+                    <input type="text" id="msg" name="message" required>
+                </p>
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+</body>
+</html>
